@@ -2,4 +2,4 @@
 
 **palette de couleurs**
 
-![Palette de couleurs](medias/images/couleurr_projet1.png)
+![Palette de couleurs](medias/images/couleurs_projet_1.png)
