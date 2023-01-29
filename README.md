@@ -1,5 +1,5 @@
 # Projet 1 en optimisation web 
-lien vers projet : https://tim-montmorency.com/timdoc/582-424MO/projet-app-festival-art-numerique/
+lien vers instruction du projet : https://tim-montmorency.com/timdoc/582-424MO/projet-app-festival-art-numerique/
 
 **palette de couleurs :**
 
