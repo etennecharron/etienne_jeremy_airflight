@@ -1,1 +1,1 @@
-# Ici ce trouve les information par rapport a la landing page de notre projet
+# Ici ce trouve les information par rapport a la landing page de notre projet (travaillé par Jérémy)
