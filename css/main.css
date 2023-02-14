@@ -1,0 +1,11 @@
+:root{
+    --bleuCiel:#C6E6FB;
+    --noir:#000000;
+    --blanc:#ffffff;
+    --fonte:Roboto;
+}
+/*pour utiliser les variables tu dois écrir par exemple:-->   var(--bleuCiel)*/
+
+body{
+    background-color:var(--bleuCiel);
+}
