@@ -47,14 +47,9 @@ color: var(--blanc);
 
 
 .logo.titre{
-    font-size:90px;
+    font-size:70px;
 }
-.logo.texte{
-    font-weight: 600;
-    font-size:13px;
-    padding-left:20px;
-    padding-top:12px;
-}
+
 .logo{
     font-family:Arial, Helvetica, sans-serif;
 }
