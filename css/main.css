@@ -19,3 +19,9 @@ header
 body{
     background-color:var(--bleuCiel);
 }
+
+
+
+.container-fluid{
+background-color: var(--bleufonce);
+}
