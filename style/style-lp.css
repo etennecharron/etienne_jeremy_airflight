@@ -13,9 +13,17 @@
 /*-----------------------------------------------------------------
 # Styles Généraux 
 -------------------------------------------------------------------*/
+html{
+    height: 200vh;
+}
+
 header
 
 h1
+
+h4{
+    font-family:var(--police) ;
+      }
 
 footer
 
@@ -23,6 +31,15 @@ body{
     background-color:var(--bleuCiel);
 }
 
+main{
+    height: 200vh;
+          }
+
+
+
+/*-----------------------------------------------------------------
+# Styles Header
+-------------------------------------------------------------------*/
 .container-fluid{
     background-color: var(--bleufonce);
     }
@@ -55,5 +72,13 @@ color: var(--blanc);
 }
 
 .navbar{
+    position: static;
+    top: 0vh;
 --bs-navbar-padding-y:0;
+}
+
+
+.text-center{
+padding: 1rem;
+margin-top: 1rem;
 }

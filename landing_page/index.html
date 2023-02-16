@@ -25,26 +25,98 @@
     </header>
 
         <main>
-            <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <nav id="navbar-lp" class="navbar  navbar-expand-sm bg-body-tertiary sticky-top">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><div class="logo row"><div class="col-6"><h1 class="logo titre">FILE</h1></div><div class="col-6"></div></div></a>
+                  <a class="navbar-brand" href="#navbar-lp"><div class="logo row"><div class="col-6"><h1 class="logo titre">FILE</h1></div><div class="col-6"></div></div></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link" aria-current="page" href="#">L'application</a>
-                      <a class="nav-link" href="#">Fonctionnalités</a>
-                      <a class="nav-link" href="#">Témoignages</a>
-                      <a class="nav-link" href="#">Tarifs</a>
+                      <a class="nav-link" href="#Hero">L'application</a>
+                      <a class="nav-link" href="#Fonctionnalite">Fonctionnalités</a>
+                      <a class="nav-link" href="#temoignages">Témoignages</a>
+                      <a class="nav-link" href="#tarifs">Tarifs</a>
                     </div>
                   </div>
                 </div>
               </nav> 
+              <div data-bs-spy="scroll" data-bs-target="#navbar-lp" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h4 id="Hero">Hero</h4>
+                <p>...</p>
+                <h4 id="Fonctionnalite">Fonctionnalités</h4>
+                <p>...</p>
+                <h4 id="temoignages">Témoignages</h4>
+                <p>...</p>
+                <h4 id="tarifs">Tarifs</h4>
+                <p>...</p>
+              </div>
         </main>
 
-            <footer>                
-            </footer>
+              <footer class="text-center text-white" style="background-color: var(--bleufonce)">
+                <!-- Grid container -->
+                <div class="container">
+                  <!-- Section: Links -->
+                  <section class="mt-1">
+                    <!-- Grid row-->
+                    <div class="row text-center d-flex justify-content-center pt-1">
+                      <!-- Grid column -->
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="#Hero" class="text-white">Hero</a>
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+            
+                      <!-- Grid column -->
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="#Fonctionnalites" class="text-white">Fonctionnalités</a>
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+            
+                      <!-- Grid column -->
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="#temoignages" class="text-white">Témoignages</a>
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+            
+                      <!-- Grid column -->
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                          <a href="#tarifs" class="text-white">Tarifs</a>
+                        </h6>
+                      </div>
+                      <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                  </section>
+                  <!-- Section: Links -->
+            
+                  <hr class="my-3" />
+             <p>Jérémy Cholette & Étienne Charron</p>
+                  <!-- Section: Text -->
+                  <section class="mb-3">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-lg-8">
+                         <a href="https://github.com/etennecharron/etienne_jeremy_airflight" style="color: var(--blanc)">Lien vers notre Github</a>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- Section: Text -->
+            
+                <!-- Copyright -->
+                <div class="text-center p-2">
+                     © 2023 Copyright
+                 
+                </div>
+                <!-- Copyright -->
+              </footer>
+              <!-- Footer -->
+            </div>               
 
                     <script src="../js/script.js"></script>
 </body>
