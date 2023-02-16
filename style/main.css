@@ -13,11 +13,11 @@
 /*-----------------------------------------------------------------
 # Styles Généraux 
 -------------------------------------------------------------------*/
-header
 
 
-body{
-    background-color:var(--bleuCiel);
+.navbar{
+--bs-navbar-padding-y:0;
 }
-
-
+*{
+    box-sizing: border-box;
+}

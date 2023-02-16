@@ -1,21 +1,80 @@
-:root{
-    --bleuCiel:#C6E6FB;
-    --noir:#000000;
-    --blanc:#ffffff;
-    --fonte:Roboto;
-    --bleumarin:#1F305E;
-    --bleufonce:#3a5683;
-    --bleu:#3970c3;
-    --police:Questrial;
+:root {
+    --bleuCiel: #C6E6FB;
+    --noir: #000000;
+    --blanc: #ffffff;
+    --fonte: Roboto;
+    --bleumarin: #1F305E;
+    --bleufonce: #3a5683;
+    --bleu: #3970c3;
+    --police: Questrial;
 }
+
 /*pour utiliser les variables tu dois écrir par exemple:-->   var(--bleuCiel)*/
 
 /*-----------------------------------------------------------------
 # Styles Généraux 
 -------------------------------------------------------------------*/
-header
+li {
+    cursor: pointer;
+}
+body{
+    height:200vh;
+}
+.logo.titre {
+    font-size: 90px;
+}
 
+.logo.texte {
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
 
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    margin: 0;
+    
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.container-fluid {
+    background-color: var(--blanc);
+}
 body{
     background-color:var(--bleuCiel);
+}
+.navbar-toggler{
+    border:none;
+}
+.test{
+    background-color: #000000;
+    width:100px;
+    height: 100px;
+}
+main{
+    height:100%;
+}
+footer{
+    background-color:var(--bleu);
+    padding:1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+footer .container-fluid{
+    background-color: var(--bleu);
+}
+footer .container-fluid p{
+    color:var(--blanc);
 }
