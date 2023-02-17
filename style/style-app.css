@@ -81,3 +81,7 @@ footer .container-fluid p{
 main{
     min-width:494px;
 }
+
+.container-fluid{
+    white-space: nowrap;
+}
