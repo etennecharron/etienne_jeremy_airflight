@@ -13,9 +13,7 @@
 /*-----------------------------------------------------------------
 # Styles Généraux 
 -------------------------------------------------------------------*/
-html{
-    height: 200vh;
-}
+html
 
 header
 
@@ -31,9 +29,7 @@ body{
     background-color:var(--bleuCiel);
 }
 
-main{
-    height: 200vh;
-          }
+main
 
 
 
@@ -72,7 +68,6 @@ color: var(--blanc);
 }
 
 .navbar{
-    position: static;
     top: 0vh;
 --bs-navbar-padding-y:0;
 }
@@ -82,3 +77,17 @@ color: var(--blanc);
 padding: 1rem;
 margin-top: 1rem;
 }
+
+
+.block{
+width: 100%;
+height: 100px;
+    }
+
+.red {
+background-color: red;
+        } 
+
+.blue {
+background-color: blue;
+} 
