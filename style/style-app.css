@@ -78,3 +78,6 @@ footer .container-fluid{
 footer .container-fluid p{
     color:var(--blanc);
 }
+main{
+    min-width:494px;
+}
