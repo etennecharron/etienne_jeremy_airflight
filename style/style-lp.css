@@ -132,3 +132,59 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     background-color: var(--bleuCiel);
     color: var(--bleumarin);
 }
+
+/*-----------------------------------------------------------------
+# Styles Main
+-------------------------------------------------------------------*/
+.bi{
+    font-size: 2rem; 
+    color: cornflowerblue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.fonctionnalite{
+text-align: center;
+}
+
+.texteFonctio{
+    text-align: center;
+    }
+
+.card-img-top{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }    
+
+
+.card-img-francoise{
+    width: 77px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }    
+
+.card-img-keanu{
+width: 70px;
+height: 70px;
+margin-top: 10px;
+margin-left: 10px;
+        }    
+
+
+.section-features{
+    margin-bottom: 300px;
+    }
+    
+
+.container{
+    margin-bottom: 300px;
+    }   
+
+    .navbar{
+        margin-bottom: 100px;
+        }   
