@@ -26,8 +26,6 @@ main {
     background-color: var(--bleuCiel);
 }
 
-
-
 /*-----------------------------------------------------------------
 # Styles Header
 -------------------------------------------------------------------*/
@@ -79,7 +77,7 @@ main {
     height: 700px;
 }
 
-.red {
+.app {
     font-size: 70px;
     font-family: var(--police);
 }
@@ -248,4 +246,7 @@ border-radius: 10px;
 
 .test{
     background-color: var(--noir);
+    height: 150px;
+    text-align: center;
+    margin-bottom: 100px;
     }     
