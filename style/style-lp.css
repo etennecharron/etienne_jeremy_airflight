@@ -238,4 +238,14 @@ border-radius: 10px;
         margin-bottom: 100px;
         }   
 
-        
+#FAQ{
+    padding-bottom: 10px;
+    }    
+
+    #Infolettre{
+        padding-bottom: 10px;
+        } 
+
+.test{
+    background-color: var(--noir);
+    }     
