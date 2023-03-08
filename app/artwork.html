@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../style/style-app.css">
+  <link rel="stylesheet" href="../style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navId" tabindex="0" class="artwork">
+
+
+
+  <header id="back-to-top">
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <a class="navbar-brand" href="#back-to-top">
+          <div class="logo row" id="btn-back-to-top">
+            <div class="col-6">
+              <h1 class="logo titre">FILE</h1>
+            </div>
+            <div class="col-6">
+              <p class="logo texte">ELECTRONIC<br>LANGUAGE<br>INTERNATIONAL<br>FESTIVAL</p>
+            </div>
+          </div>
+        </a>
+        <i class="bi bi-suit-heart"></i>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+
+
+    <img src="../assets/images/image_file_oeuvre_01.jpg" alt="image de l'oeuvre 1"
+      class="imgOeuvre position-relative z-2">
+
+    <div class="infoWrapup d-flex flex-column align-items-center">
+
+      <div class="align-self-center mt-5">
+        <h1 class="ms-5">Augmented Shadow</h1>
+        <div class="d-flex ms-5">
+          <i class="bi bi-map me-2"></i>
+          <p class="me-3">Quelque part 🤷‍♂️</p>
+          <i class="bi bi-calendar3-week me-2"></i>
+          <p>21 juin 2023</p>
+        </div>
+      </div>
+
+
+
+      
+        <div class="card carte">
+          <img src="../assets/images/artiste_01.jpg" class="card-img-top artiste" alt="image de l'oeuvre 2">
+          <div class="card-body">
+            <h5 class="card-title">Joon Y Moon</h5>
+            <p class="card-text">Il est un artiste et un programmeur informatique travaillant à Séoul.</p>
+          </div>
+          <button type="button" class="btn d-flex" data-bs-toggle="modal" data-bs-target="#modalInfo">
+            <p class="m-0 text-primary">En savoir plus</p><i class="bi bi-chevron-right text-primary"></i>
+          </button>
+        </div>
+    
+    <div class="wrapupInfoOEuvre align-self-center mt-5">
+      <h2>À Propos de l'oeuvre</h2>
+      <p>"Augmented Shadow", conçu par Joon Moon, fait référence à un appareil et à une expérience qui implémente la réalité augmentée
+        à l'aide d'ombres. Ce dispositif améliore la réalité en superposant des ombres virtuelles sur les ombres réelles des objets selon l'angle du dispositif d'éclairage que le public contrôle.</p>
+      </div>
+
+      <div class="dropdown reservationWrapUp align-self-center mb-4">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          Réserver votre place
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="DropdownFormEmail" class="form-label">Couriel</label>
+            <input type="email" class="form-control" id="DropdownFormEmail" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="DropdownFormPrenom" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="DropdownFormPrenom" placeholder="Prénom">
+          </div>
+          <div class="mb-3">
+            <label for="DropdownFormNom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="DropdownFormNom" placeholder="Nom">
+          </div>
+          <div class="mb-3">
+            <label for="DropdownFormDate" class="form-label">Date</label>
+            <input type="date" min="2020-01-01" max="2024-01-01" class="form-control" id="DropdownFormDate">
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+
+
+
+
+    </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid row">
+      <div class="col-sm-6">
+        <p>Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Étienne Charron
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="logo-tim" viewBox="0 0 1202.33 303.71"
+          style="fill:rgb(255,0,59);">
+          <circle cx="1113.33" cy="161.28" r="89" />
+          <path
+            d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z" />
+        </svg>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+
+
+  <div class="modal" tabindex="-1" id="modalInfo">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h2 class="modal-title">Joon Y Moon</h2>
+          <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+          fenêtre"></button>
+        </div>
+
+
+        <div class="modal-body">
+          <p>Il est un artiste et programmeur informatique travaillant à Séoul. Ses œuvres ont été exposées au MOMA (New York), Microwave, Onedotzero, FILE, Cinekid, Scopitone et dans de grands musées coréens tels que le National Museum of Modern and Contemporary Art, le Seoul Museum of Art, la Gwanju Design Biennale et le Kumho Museum. Il travaille principalement sur les médias expérimentaux et l'art informatique tels que la réalité augmentée, l'interface tangible, l'art génératif et la visualisation sonore. Il est également professeur d'université et artiste technique indépendant.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

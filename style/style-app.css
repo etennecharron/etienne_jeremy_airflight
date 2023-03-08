@@ -8,23 +8,32 @@
     --bleu: #3970c3;
     --police: Questrial;
 }
-
-/*pour utiliser les variables tu dois écrir par exemple:-->   var(--bleuCiel)*/
-
 /*-----------------------------------------------------------------
 # Styles Généraux 
+
+
+
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #e2ceb4,
+    "dark":       #c6e6fb,
+    "primary":    #336ec7,
+    "secondary":  #19378b,
+    "info":       #37b498,
+    "success":    #1aa25e,
+    "warning":    #e2ca1b,
+    "danger":     #f01a0c,
+);
 -------------------------------------------------------------------*/
-html{
-    width:100vw;
-    margin: 0;
-}
 li {
     cursor: pointer;
 }
 body{
-    height:200vh;
     width:100vw;
     margin: 0;
+    overflow-x:hidden;
+    background-color:--bleu;
 }
 .logo.titre {
     font-size: 90px;
@@ -54,9 +63,6 @@ body{
 
 }
 
-.container-fluid {
-    background-color: var(--blanc);
-}
 body{
     background-color:var(--bleuCiel);
 }
@@ -93,7 +99,7 @@ main{
 }
 
 .container-fluid{
-    white-space: nowrap;
+white-space: nowrap;
 margin: 0;
 }
 .carte{
@@ -102,7 +108,10 @@ margin: 0;
     text-decoration: none;
     color: black;
 }
-.carte img{
+.index .carte:hover .card-body{
+background-color: rgba(222, 239, 255, 0.685);
+}
+.carteSectionCarte .imgOeuvre{
     width:100%;
     height:20vh;
     object-fit: cover;
@@ -114,14 +123,64 @@ header{
     width:100vw;
     margin: 0;
 }
-.bi.bi-calendar3-week + p{
-    display: inline;
-    margin-left:10px;
+.carteWrapup{
+    white-space: nowrap;
 }
-.bi.bi-clock{
-    margin-left: 10px;
+.imgArtist{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 1px black;
 }
-.bi.bi-clock + p{
-    display: inline;
-    margin-left: 10px;
+#sectionCarte{
+    width:140%;
+}
+.carteSectionCarte{
+    max-width:200px;
+}
+.carteSectionAutre .imgOeuvre{
+height:20vh;
+object-fit: cover;
+}
+.carteSectionCarte .card-title{
+    font-size:15px;
+    font-weight:630;
+}
+.carteSectionCarte .card-body{
+    font-size:12px;
+}
+
+
+.artwork .navbar-brand{
+    display:none;
+}
+.artwork .imgOeuvre{
+    height:33vh;
+    object-fit: cover;
+    width:110vw;
+}
+
+.infoWrapup{
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.artwork .artiste{
+    object-fit: cover;
+    width:80vw;
+    height:20vh;
+}
+.artwork .card-body{
+width:80vw;
+}
+.wrapupInfoOEuvre{
+    max-width:80vw;
+    text-align: justify;
+}
+
+.reservationWrapUp{
+width:80vw;
 }
