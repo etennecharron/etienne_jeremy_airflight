@@ -134,12 +134,48 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 /*-----------------------------------------------------------------
 # Styles Main
 -------------------------------------------------------------------*/
-.bi{
+.bi-calendar3-week{
     font-size: 2rem; 
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.bi-calendar-heart{
+    font-size: 2rem; 
+    color: var(--bleu);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bi-person-lines-fill{
+    font-size: 2rem; 
+    color: var(--bleu);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bi-ticket-detailed{
+    font-size: 2rem; 
+    color: var(--bleu);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bi-geo-alt{
+    font-size: 2rem; 
+    color: var(--bleu);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bi-controller{
+    font-size: 2rem; 
+    color: var(--bleu);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 
 .bi-chat-right-quote{
     font-size: 2rem; 
@@ -148,6 +184,10 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     margin-left: 10px;
     position: absolute;
     right: 10px;
+}
+
+.bi-envelope-at{
+    color: var(--bleu);
 }
 
 .fonctionnalite{
@@ -244,9 +284,24 @@ border-radius: 10px;
         padding-bottom: 10px;
         } 
 
-.test{
-    background-color: var(--noir);
-    height: 150px;
+.contenu{
+    background-color: var(--bleu);
+    color: var(--blanc);
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    z-index: 1;
+    opacity: 70%;
+    padding: 10px;
     }     
+
+.imginfo{
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }   
+
+ 
