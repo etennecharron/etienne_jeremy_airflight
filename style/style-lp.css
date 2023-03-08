@@ -134,51 +134,51 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 /*-----------------------------------------------------------------
 # Styles Main
 -------------------------------------------------------------------*/
-.bi-calendar3-week{
-    font-size: 2rem; 
+.bi-calendar3-week {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.bi-calendar-heart{
-    font-size: 2rem; 
+.bi-calendar-heart {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.bi-person-lines-fill{
-    font-size: 2rem; 
+.bi-person-lines-fill {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.bi-ticket-detailed{
-    font-size: 2rem; 
+.bi-ticket-detailed {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.bi-geo-alt{
-    font-size: 2rem; 
+.bi-geo-alt {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.bi-controller{
-    font-size: 2rem; 
+.bi-controller {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 10px;
     margin-left: 10px;
 }
 
 
-.bi-chat-right-quote{
-    font-size: 2rem; 
+.bi-chat-right-quote {
+    font-size: 2rem;
     color: var(--bleu);
     margin-top: 5px;
     margin-left: 10px;
@@ -186,122 +186,120 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     right: 10px;
 }
 
-.bi-envelope-at{
+.bi-envelope-at {
     color: var(--bleu);
 }
 
-.fonctionnalite{
-text-align: center;
-color: var(--bleumarin);
+.fonctionnalite {
+    text-align: center;
+    color: var(--bleumarin);
 }
 
-.texteFonctio{
+.texteFonctio {
     text-align: center;
     color: var(--bleumarin);
-    }
+}
 
-.temoignages{
+.temoignages {
     text-align: center;
     color: var(--bleumarin);
-    }  
+}
 
-.textetemoignage{
+.textetemoignage {
     text-align: center;
     color: var(--bleumarin);
-    }
+}
 
-.card-img-hugh{
+.card-img-hugh {
     width: 70px;
     height: 70px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    }    
+}
 
 
-.card-img-francoise{
+.card-img-francoise {
     width: 77px;
     height: 70px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    }    
+}
 
-.card-img-keanu{
-width: 70px;
-height: 70px;
-margin-top: 10px;
-margin-left: 10px;
-border-radius: 10px;
-        }  
-        
-.card-img-dave{
-width: 70px;
-height: 70px;
-margin-top: 10px;
-margin-left: 10px;
-border-radius: 10px;
-}  
-
-
-.card-img-marie{
-width: 70px;
-height: 70px;
-margin-top: 10px;
-margin-left: 10px;
-border-radius: 10px;
-}  
-
-.card-img-jack{
+.card-img-keanu {
     width: 70px;
     height: 70px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    }    
+}
 
-.section-features{
+.card-img-dave {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.card-img-marie {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.card-img-jack {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.section-features {
     padding-bottom: 300px;
-    }
-    
-.section-testimonials{
+}
+
+.section-testimonials {
     padding-bottom: 300px;
-    }    
+}
 
-.container{
+.container {
     padding-bottom: 300px;
-    }   
+}
 
-    .navbar{
-        margin-bottom: 100px;
-        }   
+.navbar {
+    margin-bottom: 100px;
+}
 
-#FAQ{
+#FAQ {
+    padding-bottom: 100px;
+}
+
+#Infolettre {
     padding-bottom: 10px;
-    }    
+}
 
-    #Infolettre{
-        padding-bottom: 10px;
-        } 
-
-.contenu{
+.contenu {
     background-color: var(--bleu);
     color: var(--blanc);
     text-align: center;
-    margin-bottom: 350px;
+    margin-bottom: 200px;
     position: relative;
     z-index: 1;
     opacity: 70%;
     padding: 10px;
-    }     
+}
 
-.imginfo{
+.imginfo {
     margin-bottom: 100px;
     position: relative;
     z-index: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }   
-
- 
+}
