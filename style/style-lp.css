@@ -212,15 +212,17 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 
 .card-img-francoise {
-    width: 77px;
+    width: 70px;
     height: 70px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .card-img-keanu {
@@ -229,6 +231,7 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .card-img-dave {
