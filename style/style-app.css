@@ -32,7 +32,6 @@ li {
 body{
     width:100vw;
     margin: 0;
-    overflow-x:hidden;
     background-color:--bleu;
 }
 .logo.titre {
@@ -60,11 +59,11 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 body{
     background-color:var(--bleuCiel);
+    overflow-x:hidden;
 }
 .navbar-toggler{
     border:none;
@@ -75,10 +74,9 @@ body{
     height: 100px;
 }
 main{
-    height:100%;
-    width:100vw;
-    margin:0;
+    margin-top: 150px;
 }
+
 footer{
     background-color:var(--bleu);
     padding:1rem;
@@ -91,16 +89,13 @@ footer{
 footer .container-fluid{
     background-color: var(--bleu);
 }
+
 footer .container-fluid p{
     color:var(--blanc);
 }
-main{
-    min-width:494px;
-}
 
-.container-fluid{
+.section-2{
 white-space: nowrap;
-margin: 0;
 }
 .carte{
     border: none;
@@ -116,9 +111,7 @@ background-color: rgba(222, 239, 255, 0.685);
     height:20vh;
     object-fit: cover;
 }
-.fond{
-    background-color:var(--bleu-ciel);
-}
+
 header{
     width:100vw;
     margin: 0;
@@ -183,4 +176,8 @@ width:80vw;
 
 .reservationWrapUp{
 width:80vw;
+}
+::-webkit-scrollbar{
+    background:transparent;
+    width:0;
 }
