@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>FILE</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -15,12 +15,13 @@
   <link rel="stylesheet" href="../style/style-app.css">
   <link rel="stylesheet" href="../style/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorgin>
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
   <meta name="robots" content="noindex">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="icon" href="../assets/images/favicon.png">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navId" tabindex="0" class="artwork">
@@ -30,9 +31,9 @@
   <header id="back-to-top">
     <nav class="navbar fixed-top">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button">
+        <a href="index.html" class="btnRetour">
           <i class="bi bi-chevron-left"></i>
-        </button>
+        </a>
         <a class="navbar-brand" href="#back-to-top">
           <div class="logo row" id="btn-back-to-top">
             <div class="col-6">
@@ -43,7 +44,9 @@
             </div>
           </div>
         </a>
+        <div class="btnAimer">
         <i class="bi bi-suit-heart"></i>
+      </div>
       </div>
       </div>
     </nav>
@@ -53,7 +56,7 @@
 
 
     <img src="../assets/images/image_file_oeuvre_01.jpg" alt="image de l'oeuvre 1"
-      class="imgOeuvre position-relative z-2">
+      class="imgOeuvre">
 
     <div class="infoWrapup d-flex flex-column align-items-center">
 
@@ -135,7 +138,6 @@
       </div>
     </div>
   </footer>
-  <script src="../js/script.js"></script>
 
 
   <div class="modal" tabindex="-1" id="modalInfo">
@@ -156,7 +158,7 @@
     </div>
   </div>
 
-
+  <script src="../js/script.js"></script>
 </body>
 
 </html>
