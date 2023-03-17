@@ -32,7 +32,6 @@ li {
 body{
     width:100vw;
     margin: 0;
-    background-color:--bleu;
 }
 .logo.titre {
     font-size: 90px;
@@ -62,7 +61,7 @@ body{
 }
 
 body{
-    background-color:var(--bleuCiel);
+    background-image: linear-gradient(#C6E6FB,#ffffff);
     overflow-x:hidden;
 }
 .navbar-toggler{
@@ -202,6 +201,7 @@ align-items: center;
 .btnAimer i{
     font-size: 30px;
 }
+
 .btnRetour{
 width:60px;
 height:60px;
@@ -212,8 +212,12 @@ justify-content: center;
 align-items: center;
 background-color: white;
 }
+
 .btnRetour i{
     font-size:30px;
     color: black;
 }
 
+.artwork .carte{
+  background-color:var(--bleuCiel);
+}
