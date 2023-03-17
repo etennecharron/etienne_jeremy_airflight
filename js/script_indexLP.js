@@ -1,5 +1,5 @@
 const backflip = new Swiper('.swiper-screenshots', {
-   loop: true,   
+    loop: true,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -8,10 +8,10 @@ const backflip = new Swiper('.swiper-screenshots', {
     spaceBetween: 10,
     breakpoints: {
 
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 370
-      }
-}
+        1200: {
+            slidesPerView: 2,
+            spaceBetween: 370
+        }
+    }
 
 });

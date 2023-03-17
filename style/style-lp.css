@@ -19,7 +19,8 @@ html header h1 h4 {
     font-family: var(--police);
 }
 
-html,body{
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -304,4 +305,3 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 .row {
     --bs-gutter-x: none;
 }
-
