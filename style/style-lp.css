@@ -30,9 +30,7 @@ main {
 /*-----------------------------------------------------------------
 # Styles Header
 -------------------------------------------------------------------*/
-.container-fluid {
-    background-color: var(--bleufonce);
-}
+
 
 
 .navbar-nav {
@@ -303,4 +301,8 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 
 .swiper-screenshots{
     width:100%;
+}
+
+nav .container-fluid{
+    background-color: var(--bleufonce);
 }

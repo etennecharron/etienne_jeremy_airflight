@@ -1,5 +1,5 @@
 const backflip = new Swiper('.swiper-screenshots', {
-
+    loop: true,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -14,5 +14,5 @@ const backflip = new Swiper('.swiper-screenshots', {
 
         }
     },
-    loop: true,
+    
 });
