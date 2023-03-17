@@ -126,9 +126,7 @@ header{
     object-fit: cover;
     border: solid 1px black;
 }
-#sectionCarte{
-    width:140%;
-}
+
 .carteSectionCarte{
     max-width:200px;
 }
@@ -218,3 +216,4 @@ background-color: white;
     font-size:30px;
     color: black;
 }
+
