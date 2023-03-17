@@ -6,6 +6,7 @@
     --bleumarin: #1F305E;
     --bleufonce: #3a5683;
     --bleu: #3970c3;
+    --gris: #808080;
     --police: Questrial;
 }
 
@@ -16,6 +17,11 @@
 -------------------------------------------------------------------*/
 html header h1 h4 {
     font-family: var(--police);
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 footer body {
@@ -82,9 +88,9 @@ main {
     background-color: var(--blanc);
     width: 100%;
     aspect-ratio: 5/9;
-    border: solid 10px var(--noir);
+    border: solid 7px var(--noir);
     border-radius: 10px;
-
+    box-shadow: 2px 2px 2px 2px var(--gris);
 }
 
 a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"] {
@@ -113,7 +119,7 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 
 .description {
     font-size: 75px;
-    line-height: 65px;
+    line-height: 70px;
     color: var(--bleumarin);
 }
 
@@ -188,12 +194,12 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 
 .fonctionnalite {
     text-align: center;
-    color: var(--bleumarin);
+    color: var(--blanc);
 }
 
 .texteFonctio {
     text-align: center;
-    color: var(--bleumarin);
+    color: var(--blanc);
 }
 
 .temoignages {
@@ -260,34 +266,26 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 }
 
 .section-features {
-    padding-bottom: 300px;
-}
-
-.section-testimonials {
-    padding-bottom: 300px;
-}
-
-
-.navbar {
-    margin-bottom: 100px;
-}
-
-#FAQ {
-    padding-bottom: 100px;
+    background-color: var(--bleufonce);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 #Infolettre {
     padding-bottom: 10px;
+    background-image: url('../medias/images/lettre.webp');
+    background-repeat: no-repeat;
 }
 
 .contenu {
     background-color: var(--bleu);
     color: var(--blanc);
     text-align: center;
+    margin-top: 200px;
     margin-bottom: 200px;
-    position: relative;
+    opacity: 90%;
     z-index: 1;
-    opacity: 70%;
     padding: 10px;
 }
 
@@ -300,10 +298,10 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     object-fit: cover;
 }
 
-.Hero{
-padding-bottom: 300px;    
+.Hero {
+    padding-bottom: 300px;
 }
 
 .row {
-    --bs-gutter-x:none;
-     }
+    --bs-gutter-x: none;
+}
