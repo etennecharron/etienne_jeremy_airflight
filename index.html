@@ -152,14 +152,20 @@
     </div>
     </section>
 
+<!--
+//////////////////////////////////////////////////////////////
+Swiper
+/////////////////////////////////////////////////////////////
+-->
+
 
     <div class="container-swiper mt-5" id="View-more">
       <div id="view-more">
         <h2 class="temoignages mb-5">Prévisualisez l'interface de l'appli.</h2>
         <div class="row justify-content-start align-item-center">
-          <div class="col-12 col-lg-6 text-center">
+          <div class="col-12  text-center">
 
-            <div class="swiper-screenshots">
+            <div class="swiper swiper-screenshots">
 
               <div class="swiper-wrapper">
 
@@ -327,6 +333,9 @@
               </div>
             </div>
           </div>
+ 
+          <section id="info-lettre">
+              <div class="container mt-5 p-2">
 
           <div class="container mt-5 p-2" id="info-lettre">
 
@@ -366,19 +375,47 @@
                             id="recipient-name">
                         </div>
                       </div>
-                    </form>
+                    </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" style="background-color: var(--bleu); border: none;"
-                      data-bs-dismiss="modal">Annuler</button>
-                    <button type="button" class="btn btn-primary"
-                      style="background-color: var(--bleumarin); border: none;">M'inscrire</button>
+                </div>
+
+
+                <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content" style="background-color: var(--bleufonce); border: none;">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: var(--blanc);">Restez informé !
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label"></label>
+                            <div class="input-group">
+                              <div class="input-group-text" id="basic-addon1">
+                                <i class="bi bi-envelope-at"></i>
+                              </div>
+                              <input type="text" placeholder="Votre adresse courriel" class="form-control"
+                                id="recipient-name">
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" style="background-color: var(--bleu); border: none;"
+                          data-bs-dismiss="modal">Annuler</button>
+                        <button type="button" class="btn btn-primary"
+                          style="background-color: var(--bleumarin); border: none;">M'inscrire</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+
+          </section>
+
   </main>
 
   <footer class="text-center text-white" style="background-color: var(--bleufonce)">
