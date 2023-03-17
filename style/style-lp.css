@@ -19,11 +19,6 @@ html header h1 h4 {
     font-family: var(--police);
 }
 
-html,
-body {
-    overflow-x: hidden;
-}
-
 footer body {
     background-color: var(--bleuCiel);
 }
@@ -272,8 +267,8 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
     border-radius: 5px;
 }
 
-#Infolettre {
-    padding-bottom: 10px;
+#info-lettre{
+    width:100%;    
     background-image: url('../medias/images/lettre.webp');
     background-repeat: no-repeat;
 }
@@ -304,4 +299,8 @@ a[href*="https://github.com/etennecharron/etienne_jeremy_airflight"]:hover {
 
 .row {
     --bs-gutter-x: none;
+}
+
+.swiper-screenshots{
+    width:100%;
 }
