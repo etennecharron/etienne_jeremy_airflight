@@ -57,8 +57,7 @@
 
 
 
-    <img src="../assets/images/image_file_oeuvre_01.jpg" alt="image de l'oeuvre 1"
-      class="imgOeuvre">
+    <img src="../assets/images/image_file_oeuvre_01.jpg" alt="image de l'oeuvre 1" class="imgOeuvre">
 
     <div class="infoWrapup d-flex flex-column align-items-center">
 
@@ -92,39 +91,36 @@
         à l'aide d'ombres. Ce dispositif améliore la réalité en superposant des ombres virtuelles sur les ombres réelles des objets selon l'angle du dispositif d'éclairage que le public contrôle.</p>
       </div>
 
-      <div class="dropdown reservationWrapUp align-self-center mb-4">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-          Réserver votre place
-        </button>
-        <form class="dropdown-menu p-4">
-          <div class="mb-3">
-            <label for="DropdownFormEmail" class="form-label">Couriel</label>
-            <input type="email" class="form-control" id="DropdownFormEmail" placeholder="email@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="DropdownFormPrenom" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="DropdownFormPrenom" placeholder="Prénom">
-          </div>
-          <div class="mb-3">
-            <label for="DropdownFormNom" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="DropdownFormNom" placeholder="Nom">
-          </div>
-          <div class="mb-3">
-            <label for="DropdownFormDate" class="form-label">Date</label>
-            <input type="date" min="2020-01-01" max="2024-01-01" class="form-control" id="DropdownFormDate">
-          </div>
-          <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-      </div>
-
-
-      <div class="accordion" id="accordionReservation">
+      <div class="accordion my-5 col-11" id="accordionReservation">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Réservation
             </button>
           </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionReservation">
+            <div class="accordion-body">
+              <form class="p-4">
+                <div class="mb-3">
+                  <label for="DropdownFormEmail" class="form-label">Couriel</label>
+                  <input type="email" class="form-control" id="DropdownFormEmail" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="DropdownFormPrenom" class="form-label">Prénom</label>
+                  <input type="text" class="form-control" id="DropdownFormPrenom" placeholder="Prénom">
+                </div>
+                <div class="mb-3">
+                  <label for="DropdownFormNom" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="DropdownFormNom" placeholder="Nom">
+                </div>
+                <div class="mb-3">
+                  <label for="DropdownFormDate" class="form-label">Date</label>
+                  <input type="date" min="2020-01-01" max="2024-01-01" class="form-control" id="DropdownFormDate">
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -143,7 +139,7 @@
           style="fill:rgb(255,0,59);">
           <circle cx="1113.33" cy="161.28" r="89" />
           <path
-            d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z" />
+            d="M785.69 166.81l16.26 16.26 16.wd26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z" />
         </svg>
       </div>
     </div>
@@ -153,7 +149,6 @@
   <div class="modal" tabindex="-1" id="modalInfo">
     <div class="modal-dialog modal-sm modal-dialog-centered">
       <div class="modal-content">
-
         <div class="modal-header">
           <h2 class="modal-title">Joon Y Moon</h2>
           <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
